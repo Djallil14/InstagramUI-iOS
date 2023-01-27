@@ -8,18 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		C59674AE29838248001BC82A /* InstagramUICloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59674AD29838248001BC82A /* InstagramUICloneApp.swift */; };
-		C59674B029838248001BC82A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59674AF29838248001BC82A /* ContentView.swift */; };
+		C59674B029838248001BC82A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59674AF29838248001BC82A /* HomeView.swift */; };
 		C59674B229838249001BC82A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59674B129838249001BC82A /* Assets.xcassets */; };
 		C59674B629838249001BC82A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59674B529838249001BC82A /* Preview Assets.xcassets */; };
+		C59674BD2983825E001BC82A /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C59674BC2983825E001BC82A /* Billabong.ttf */; };
+		C59674C0298382B5001BC82A /* HorizontalStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59674BF298382B5001BC82A /* HorizontalStoryView.swift */; };
+		C59674C2298382D7001BC82A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59674C1298382D7001BC82A /* Model.swift */; };
+		C59674C4298385A3001BC82A /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59674C3298385A3001BC82A /* PostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C59674AA29838248001BC82A /* InstagramUIClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramUIClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59674AD29838248001BC82A /* InstagramUICloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUICloneApp.swift; sourceTree = "<group>"; };
-		C59674AF29838248001BC82A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C59674AF29838248001BC82A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C59674B129838249001BC82A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C59674B329838249001BC82A /* InstagramUIClone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InstagramUIClone.entitlements; sourceTree = "<group>"; };
 		C59674B529838249001BC82A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C59674BC2983825E001BC82A /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Billabong.ttf; sourceTree = "<group>"; };
+		C59674BE29838273001BC82A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C59674BF298382B5001BC82A /* HorizontalStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalStoryView.swift; sourceTree = "<group>"; };
+		C59674C1298382D7001BC82A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C59674C3298385A3001BC82A /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +61,14 @@
 		C59674AC29838248001BC82A /* InstagramUIClone */ = {
 			isa = PBXGroup;
 			children = (
+				C59674BE29838273001BC82A /* Info.plist */,
 				C59674AD29838248001BC82A /* InstagramUICloneApp.swift */,
-				C59674AF29838248001BC82A /* ContentView.swift */,
+				C59674AF29838248001BC82A /* HomeView.swift */,
+				C59674BF298382B5001BC82A /* HorizontalStoryView.swift */,
+				C59674C3298385A3001BC82A /* PostView.swift */,
+				C59674C1298382D7001BC82A /* Model.swift */,
 				C59674B129838249001BC82A /* Assets.xcassets */,
+				C59674BC2983825E001BC82A /* Billabong.ttf */,
 				C59674B329838249001BC82A /* InstagramUIClone.entitlements */,
 				C59674B429838249001BC82A /* Preview Content */,
 			);
@@ -127,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59674BD2983825E001BC82A /* Billabong.ttf in Resources */,
 				C59674B629838249001BC82A /* Preview Assets.xcassets in Resources */,
 				C59674B229838249001BC82A /* Assets.xcassets in Resources */,
 			);
@@ -139,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C59674B029838248001BC82A /* ContentView.swift in Sources */,
+				C59674B029838248001BC82A /* HomeView.swift in Sources */,
+				C59674C0298382B5001BC82A /* HorizontalStoryView.swift in Sources */,
 				C59674AE29838248001BC82A /* InstagramUICloneApp.swift in Sources */,
+				C59674C4298385A3001BC82A /* PostView.swift in Sources */,
+				C59674C2298382D7001BC82A /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +287,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstagramUIClone/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -307,6 +326,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstagramUIClone/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
