@@ -1,4 +1,4 @@
-# InstagramUI-iOS
+# Instagram-HomePageUI-iOS
 A Basic Instagram UI Recreated in few minutes in SwiftUI
 
 Xcode 14+
